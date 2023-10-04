@@ -1,0 +1,8 @@
+let password = 'Test1233';
+if (password.length < 8){
+    console.log('Password too short')
+} else if ((password.toUpperCase().includes('A') || password.toUpperCase().includes('B') || password.toUpperCase().includes('C') || password.toUpperCase().includes('D') || password.toUpperCase().includes('E') || password.toUpperCase().includes('F') || password.toUpperCase().includes('H') || password.toUpperCase().includes('J') || password.toUpperCase().includes('K') || password.toUpperCase().includes('L') || password.toUpperCase().includes('M') || password.toUpperCase().includes('N') || password.toUpperCase().includes('O') || password.toUpperCase().includes('P') || password.toUpperCase().includes('Q') || password.toUpperCase().includes('R') || password.toUpperCase().includes('S') || password.toUpperCase().includes('T') || password.toUpperCase().includes('U') || password.toUpperCase().includes('V') || password.toUpperCase().includes('W') || password.toUpperCase().includes('X') || password.toUpperCase().includes('Y') || password.toUpperCase().includes('Z')) && (password.includes('0') || password.includes('1') || password.includes('2') || password.includes('3') || password.includes('4') || password.includes('5') || password.includes('6') || password.includes('7') || password.includes('8') || password.includes('9'))){
+    console.log('Password accepted')
+} else{
+    console.log('Password rejected')
+}
